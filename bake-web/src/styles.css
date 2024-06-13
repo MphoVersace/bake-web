@@ -11,6 +11,10 @@ h1 {
   color: #333;
 }
 
+.menu-title {
+  color: red; /* Make the menu title red */
+}
+
 .burger-list {
   display: flex;
   flex-wrap: wrap;

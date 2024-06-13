@@ -1,72 +1,54 @@
 /* styles.css */
-nav {
-  background-color: #333;
-  color: white;
-  padding: 1rem;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
 }
 
-nav ul {
-  list-style-type: none;
-  display: flex;
-  gap: 1rem;
-}
-
-nav ul li {
-  display: inline;
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
+h1 {
+  text-align: center;
+  color: #333;
 }
 
 .burger-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  justify-content: center;
+  padding: 2rem;
 }
 
 .burger-item {
-  border: 1px solid #ccc;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
   padding: 1rem;
-  border-radius: 5px;
   text-align: center;
-  width: calc(33% - 2rem);
+  width: 200px;
+  cursor: pointer; /* Add cursor pointer to indicate clickable */
 }
 
 .burger-item img {
   max-width: 100%;
   height: auto;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
-h1, h2 {
+.burger-details {
+  background: #f8f9fa;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.burger-details h2 {
   color: #333;
+  font-size: 1.5rem;
 }
 
-p {
+.burger-details p {
   color: #666;
-}
-
-footer {
-  background-color: #333;
-  color: white;
-  padding: 1rem;
-  text-align: center;
-}
-
-.social-media-toggle {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-}
-
-.social-media-toggle label {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.social-media-toggle input[type="checkbox"] {
-  transform: scale(1.5);
 }

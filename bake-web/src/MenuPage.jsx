@@ -4,7 +4,7 @@ import cake2 from './assets/cake2.jpeg';
 import cake3 from './assets/cake3.jpeg';
 import cake4 from './assets/cake4.jpeg';
 import cake5 from './assets/cake5.jpeg';
-import burger6 from './assets/image6.jpeg';
+import cake6 from './assets/cake6.jpeg';
 import burger7 from './assets/image7.jpeg';
 import burger8 from './assets/image8.jpeg';
 import burger9 from './assets/image9.jpeg';
@@ -18,7 +18,7 @@ const MenuPage = () => {
     { name: 'Red Velvet Cupcakes', img: cake3, description: 'A velvety smooth, deep red cupcake with a hint of cocoa, paired with a tangy cream cheese frosting. This classic Southern favorite is both elegant and indulgent.' },
     { name: 'Lemon Zest Cupcakes', img: cake4, description: 'A refreshing cupcake with a bright, zesty lemon flavor, topped with a tangy lemon buttercream frosting and a candied lemon peel garnish. Perfect for a burst of citrusy goodness..' },
     { name: 'Salted Caramel Cupcakes', img: cake5, description: 'A moist vanilla cupcake filled with a gooey salted caramel center, topped with a swirl of caramel buttercream and a sprinkle of sea salt. The perfect blend of sweet and salty..' },
-    { name: 'Mushroom Burger', img: burger6, description: 'A mushroom-flavored burger.' },
+    { name: 'Strawberry Shortcake Cupcakes', img: cake6, description: 'Light and airy vanilla cupcake infused with fresh strawberries, topped with a fluffy whipped cream frosting and a juicy strawberry slice. A delightful twist on a classic dessert..' },
     { name: 'BBQ Burger', img: burger7, description: 'A sweet and sour BBQ burger.' },
     { name: 'Peri Peri Original', img: burger8, description: 'The iconic Black Mamba Peri-Peri sauce on our Original Chicken Sandwich.' },
     { name: 'Texas BBQ King', img: burger9, description: 'The Texas BBQ KING features two flame-grilled beef patties, our signature crispy onion rings, tangy BBQ sauce, melted.' }, // Added comma

@@ -1,7 +1,7 @@
 import React from 'react';
 import cake1 from './assets/cake1.jpeg';
 import cake2 from './assets/cake2.jpeg';
-import burger3 from './assets/image3.jpeg';
+import cake3 from './assets/cake3.jpeg';
 import burger4 from './assets/image4.jpeg';
 import burger5 from './assets/image5.jpeg';
 import burger6 from './assets/image6.jpeg';
@@ -15,7 +15,7 @@ const MenuPage = () => {
   const burgers = [
     { name: 'Classic Vanilla Cupcakes', img: cake1, description: 'A light and fluffy vanilla-flavored cupcake topped with a smooth, creamy vanilla buttercream frosting. Perfect for those who love a simple yet delicious treat..' },
     { name: 'Chocolate Lovers Cupcake', img: cake2, description: 'Rich, moist chocolate cupcake made with high-quality cocoa, topped with a decadent chocolate ganache and chocolate shavings. A must-try for any chocolate enthusiast.' },
-    { name: 'Bacon Burger', img: burger3, description: 'Crispy bacon and special sauce make this a standout.' },
+    { name: 'Red Velvet Cupcakes', img: cake3, description: 'A velvety smooth, deep red cupcake with a hint of cocoa, paired with a tangy cream cheese frosting. This classic Southern favorite is both elegant and indulgent.' },
     { name: 'Veggie Burger', img: burger4, description: 'A vegetarian delight with fresh veggies and a unique patty.' },
     { name: 'Spicy Burger', img: burger5, description: 'A spicy kick with jalapenos and hot sauce for the brave.' },
     { name: 'Mushroom Burger', img: burger6, description: 'A mushroom-flavored burger.' },

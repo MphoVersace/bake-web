@@ -7,7 +7,7 @@ import cake5 from './assets/cake5.jpeg';
 import cake6 from './assets/cake6.jpeg';
 import cake7 from './assets/cake7.jpeg';
 import cake8 from './assets/cake8.jpeg';
-import burger9 from './assets/image9.jpeg';
+import cake9 from './assets/cake9.jpeg';
 import burger10 from './assets/image10.jpeg';
 import './styles.css';
 
@@ -21,7 +21,7 @@ const MenuPage = () => {
     { name: 'Strawberry Shortcake Cupcakes', img: cake6, description: 'Light and airy vanilla cupcake infused with fresh strawberries, topped with a fluffy whipped cream frosting and a juicy strawberry slice. A delightful twist on a classic dessert..' },
     { name: 'Peanut Butter Cupcakes', img: cake7, description: 'A rich peanut butter-flavored cupcake topped with creamy peanut butter frosting and a drizzle of chocolate ganache. Perfect for peanut butter lovers.' },
     { name: 'Cookies and Cream Cupcakes', img: cake8, description: 'A chocolate cupcake with chunks of Oreo cookies baked inside, topped with a creamy cookies and cream frosting and an Oreo cookie half. A dream come true for cookie fans..' },
-    { name: 'Texas BBQ King', img: burger9, description: 'The Texas BBQ KING features two flame-grilled beef patties, our signature crispy onion rings, tangy BBQ sauce, melted.' }, // Added comma
+    { name: 'Matcha Green Tea Cupcake', img: cake9, description: 'A unique cupcake made with earthy matcha green tea powder, topped with a light and sweet matcha buttercream frosting. Perfect for those who enjoy a sophisticated, slightly bitter flavor.' }, // Added comma
     { name: ' Chicken Cheese', img: burger10, description:'Classic ingredients flavoured just right. You can’t go wrong with our Cheeseburger, a signature flame-grilled beef patty.' } // Added comma
   ];
 

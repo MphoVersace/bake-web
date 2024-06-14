@@ -1,6 +1,6 @@
 import React from 'react';
-import burger1 from './assets/image1.jpeg';
-import burger2 from './assets/image2.jpeg';
+import cake1 from './assets/cake1.jpeg';
+import cake2 from './assets/cake2.jpeg';
 import burger3 from './assets/image3.jpeg';
 import burger4 from './assets/image4.jpeg';
 import burger5 from './assets/image5.jpeg';
@@ -13,7 +13,7 @@ import './styles.css';
 
 const MenuPage = () => {
   const burgers = [
-    { name: 'Classic Burger', img: burger1, description: 'A timeless favorite with fresh lettuce, tomato, and cheese.' },
+    { name: 'Classic Vanilla Cupcakes', img: cake1, description: 'A light and fluffy vanilla-flavored cupcake topped with a smooth, creamy vanilla buttercream frosting. Perfect for those who love a simple yet delicious treat..' },
     { name: 'Cheese Burger', img: burger2, description: 'A cheesy explosion with three types of melted cheese.' },
     { name: 'Bacon Burger', img: burger3, description: 'Crispy bacon and special sauce make this a standout.' },
     { name: 'Veggie Burger', img: burger4, description: 'A vegetarian delight with fresh veggies and a unique patty.' },

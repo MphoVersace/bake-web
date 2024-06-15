@@ -1,4 +1,3 @@
-// HomePage.js
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
@@ -10,6 +9,10 @@ import home5 from './assets/home5.jpeg';
 import home6 from './assets/home6.jpeg';
 import home7 from './assets/home7.jpeg';
 import home8 from './assets/home8.jpeg';
+import img1 from './assets/qaulity-at-the-heart.png';
+import img2 from './assets/passion-for-flour.png';
+import img3 from './assets/american-tradition.webp';
+import img4 from './assets/family-owned-company.png';
 import './styles.css';
 
 const HomePage = () => {
@@ -22,6 +25,13 @@ const HomePage = () => {
     { src: home6 },
     { src: home7 },
     { src: home8 },
+  ];
+
+  const additionalImages = [
+    { src: img1, alt: 'Additional Image 1', text: 'Quality at Heart - Delivering the highest standard in all we do ' },
+    { src: img2, alt: 'Additional Image 2', text: 'Passion for flour - Freshly made evertyday' },
+    { src: img3, alt: 'Additional Image 3', text: 'American Tradition - Taste of America at your local bakery' },
+    { src: img4, alt: 'Additional Image 4', text: 'Family-Owned Company - Proud American heritage dating back to 1828' },
   ];
 
   return (
@@ -50,11 +60,28 @@ const HomePage = () => {
           </div>
         ))}
       </Carousel>
+
       <hr className="divider-line" />
+
       <h1>Our Commitment</h1>
+      
       <hr className="divider-line" />
-      <p>For five generations,<em> Home Of Cupcakes</em> has played a crucial role in the community, recognising the importance of protecting the environment and bringing quality products to people all over the world.</p>
+
+      <p>For five generations, <em>Home Of Cupcakes</em> has played a crucial role in the community, recognising the importance of protecting the environment and bringing quality products to people all over the world.</p>
+
       <hr className="divider-line" />
+
+      <div className="additional-images-container">
+        {additionalImages.map((image, index) => (
+          <div key={index} className="additional-image-item">
+            <img src={image.src} alt={image.alt} className="additional-image" />
+            <p className="additional-image-text">{image.text}</p>
+          </div>
+        ))}
+      </div>
+      <hr className="divider-line" />
+<h1>Your favs!</h1>
+<hr className="divider-line" />
     </div>
   );
 };

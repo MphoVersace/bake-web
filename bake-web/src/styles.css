@@ -182,3 +182,55 @@ h1 {
   border-top: 1px solid #ccc; /* Example color for the divider line */
   margin: 20px 0;
 }
+
+.additional-images-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Adjust gap between images */
+  margin-top: 20px; /* Adjust top margin */
+  margin-bottom: 20px; /* Adjust bottom margin */
+}
+
+.additional-image-item {
+  flex: 1;
+}
+
+.additional-image {
+  max-width: 100%; /* Ensure images don't exceed their container */
+  height: auto;
+}
+
+.additional-image-text {
+   /* Center align the text */
+  margin-top: 10px; /* Adjust top margin */
+  font-size: 14px; /* Adjust font size */
+  color: #666; /* Adjust text color */
+}
+.additional-text-title {
+  text-align: center;
+  margin-top: 20px; /* Adjust top margin */
+  font-size: 24px; /* Adjust font size */
+  color: #333; /* Adjust color */
+}
+
+.additional-text-paragraph {
+  text-align: center;
+  font-size: 16px; /* Adjust font size */
+  color: #666; /* Adjust color */
+  margin-top: 10px; /* Adjust top margin */
+  margin-bottom: 20px; /* Adjust bottom margin */
+}
+.additional-text-title {
+  text-align: center;
+  margin-top: 20px; /* Adjust top margin */
+  font-size: 24px; /* Adjust font size */
+  color: #333; /* Adjust color */
+}
+
+.additional-text-paragraph {
+  text-align: center;
+  font-size: 16px; /* Adjust font size */
+  color: #666; /* Adjust color */
+  margin-top: 10px; /* Adjust top margin */
+  margin-bottom: 20px; /* Adjust bottom margin */
+}

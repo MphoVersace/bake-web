@@ -1,7 +1,7 @@
 /* styles.css */
 body {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-style: italic;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style:initial;
   font-size: large;
   font-weight: 200;
   margin: 0;
@@ -14,9 +14,7 @@ h1 {
   color: #333;
 }
 
-.menu-title {
-  color: red; /* Make the menu title red */
-}
+
 
 .burger-list {
   display: flex;
@@ -33,7 +31,7 @@ h1 {
   padding: 1rem;
   text-align: center;
   width: 200px;
-  cursor: pointer; /* Add cursor pointer to indicate clickable */
+  cursor: pointer;
 }
 
 .burger-item img {
@@ -76,7 +74,7 @@ h1 {
 
 .about-header h1 {
   font-size: 3em;
-  color: #d63384;
+  color: black;
 }
 
 .about-content {
@@ -94,7 +92,7 @@ h1 {
 
 .about-section h2 {
   font-size: 2em;
-  color: #d63384;
+  color: black;
   margin-bottom: 10px;
 }
 
@@ -104,7 +102,7 @@ h1 {
 }
 
 .about-section a {
-  color: #d63384;
+  color: black;
   text-decoration: none;
 }
 
@@ -134,7 +132,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 500px; /* Set a fixed height for the carousel container */
+  height: 500px; 
 }
 
 .carousel-image {
@@ -179,16 +177,16 @@ h1 {
 
 .divider-line {
   border: none;
-  border-top: 1px solid #ccc; /* Example color for the divider line */
+  border-top: 1px solid #ccc; 
   margin: 20px 0;
 }
 
 .additional-images-container {
   display: flex;
   justify-content: center;
-  gap: 20px; /* Adjust gap between images */
-  margin-top: 20px; /* Adjust top margin */
-  margin-bottom: 20px; /* Adjust bottom margin */
+  gap: 20px; 
+  margin-top: 20px; 
+  margin-bottom: 20px; 
 }
 
 .additional-image-item {
@@ -196,43 +194,42 @@ h1 {
 }
 
 .additional-image {
-  max-width: 100%; /* Ensure images don't exceed their container */
+  max-width: 100%; 
   height: auto;
 }
 
 .additional-image-text {
-   /* Center align the text */
-  margin-top: 10px; /* Adjust top margin */
-  font-size: 14px; /* Adjust font size */
-  color: #666; /* Adjust text color */
+  margin-top: 10px; 
+  font-size: 14px; 
+  color: #666; 
 }
 .additional-text-title {
   text-align: center;
-  margin-top: 20px; /* Adjust top margin */
-  font-size: 24px; /* Adjust font size */
-  color: #333; /* Adjust color */
+  margin-top: 20px; 
+  font-size: 24px; 
+  color: #333; 
 }
 
 .additional-text-paragraph {
   text-align: center;
-  font-size: 16px; /* Adjust font size */
-  color: #666; /* Adjust color */
-  margin-top: 10px; /* Adjust top margin */
-  margin-bottom: 20px; /* Adjust bottom margin */
+  font-size: 16px; 
+  color: #666; 
+  margin-top: 10px; 
+  margin-bottom: 20px; 
 }
 .additional-text-title {
   text-align: center;
-  margin-top: 20px; /* Adjust top margin */
-  font-size: 24px; /* Adjust font size */
-  color: #333; /* Adjust color */
+  margin-top: 20px; 
+  font-size: 24px; 
+  color: #333; 
 }
 
 .additional-text-paragraph {
   text-align: center;
-  font-size: 16px; /* Adjust font size */
-  color: #666; /* Adjust color */
-  margin-top: 10px; /* Adjust top margin */
-  margin-bottom: 20px; /* Adjust bottom margin */
+  font-size: 16px; 
+  color: #666; 
+  margin-top: 10px; 
+  margin-bottom: 20px; 
 }
 
 /* Footer Styles */
@@ -241,7 +238,7 @@ h1 {
   color: white;
   padding: 2rem;
   text-align: center;
-  margin-top: 2rem; /* Adjust the top margin */
+  margin-top: 2rem; 
 }
 
 .footer-content {
@@ -253,7 +250,7 @@ h1 {
 }
 
 .footer-content p {
-  flex: 1 1 300px; /* Adjust the flex properties as needed */
+  flex: 1 1 300px; 
   font-size: 1rem;
   line-height: 1.5;
   color: #ccc;

@@ -176,3 +176,9 @@ h1 {
 .navbar-link:hover {
   color: #d63384;
 }
+
+.divider-line {
+  border: none;
+  border-top: 1px solid #ccc; /* Example color for the divider line */
+  margin: 20px 0;
+}

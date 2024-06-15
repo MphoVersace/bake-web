@@ -6,10 +6,10 @@ import home1 from './assets/home1.jpeg';
 import home2 from './assets/home2.jpeg';
 import home3 from './assets/home3.jpeg';
 import home4 from './assets/home4.jpeg';
-import burger5 from './assets/image5.jpeg';
-import burger6 from './assets/image6.jpeg';
-import burger7 from './assets/image7.jpeg';
-import burger8 from './assets/image8.jpeg';
+import home5 from './assets/home5.jpeg';
+import home6 from './assets/home6.jpeg';
+import home7 from './assets/home7.jpeg';
+import home8 from './assets/home8.jpeg';
 import './styles.css';
 
 const HomePage = () => {
@@ -18,10 +18,10 @@ const HomePage = () => {
     { src: home2, alt: 'Cheese Burger' },
     { src: home3, alt: 'Bacon Burger' },
     { src: home4, alt: 'Veggie Burger' },
-    { src: burger5, alt: 'Spicy Burger' },
-    { src: burger6, alt: 'Mushroom Burger' },
-    { src: burger7, alt: 'BBQ Burger' },
-    { src: burger8, alt: 'Peri Peri Original' },
+    { src: home5, alt: 'Spicy Burger' },
+    { src: home6, alt: 'Mushroom Burger' },
+    { src: home7, alt: 'BBQ Burger' },
+    { src: home8, alt: 'Peri Peri Original' },
   ];
 
   return (

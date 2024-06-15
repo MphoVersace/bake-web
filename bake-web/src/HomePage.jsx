@@ -9,6 +9,14 @@ import home5 from './assets/home5.jpeg';
 import home6 from './assets/home6.jpeg';
 import home7 from './assets/home7.jpeg';
 import home8 from './assets/home8.jpeg';
+import fav1 from './assets/fav1.jpeg';
+import fav2 from './assets/fav2.jpeg';
+import fav3 from './assets/fav3.jpeg';
+import fav4 from './assets/fav4.jpeg';
+import fav5 from './assets/fav5.jpeg';
+import fav6 from './assets/fav6.jpeg';
+import fav7 from './assets/fav7.jpeg';
+import fav8 from './assets/fav8.jpeg';
 import img1 from './assets/qaulity-at-the-heart.png';
 import img2 from './assets/passion-for-flour.png';
 import img3 from './assets/american-tradition.webp';
@@ -29,9 +37,20 @@ const HomePage = () => {
 
   const additionalImages = [
     { src: img1, alt: 'Additional Image 1', text: 'Quality at Heart - Delivering the highest standard in all we do ' },
-    { src: img2, alt: 'Additional Image 2', text: 'Passion for flour - Freshly made evertyday' },
+    { src: img2, alt: 'Additional Image 2', text: 'Passion for flour - Freshly made everyday' },
     { src: img3, alt: 'Additional Image 3', text: 'American Tradition - Taste of America at your local bakery' },
     { src: img4, alt: 'Additional Image 4', text: 'Family-Owned Company - Proud American heritage dating back to 1828' },
+  ];
+
+  const favImages = [
+    { src: fav1 },
+    { src: fav2 },
+    { src: fav3 },
+    { src: fav4 },
+    { src: fav5 },
+    { src: fav6 },
+    { src: fav7 },
+    { src: fav8 },
   ];
 
   return (
@@ -79,9 +98,27 @@ const HomePage = () => {
           </div>
         ))}
       </div>
+
+      <h1 className="additional-text-title">Quality at Heart</h1>
+      <p className="additional-text-paragraph">Delivering the highest standard in all we do</p>
+
       <hr className="divider-line" />
-<h1>Your favs!</h1>
-<hr className="divider-line" />
+
+      <h1>Your Favs!</h1>
+      <Carousel
+        autoPlay
+        infiniteLoop
+        interval={3000}
+        transitionTime={500}
+        showThumbs={false}
+        showStatus={false}
+      >
+        {favImages.map((image, index) => (
+          <div key={index} className="carousel-image-container">
+            <img src={image.src} alt={`Fav Slide ${index + 1}`} className="carousel-image" />
+          </div>
+        ))}
+      </Carousel>
     </div>
   );
 };

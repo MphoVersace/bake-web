@@ -14,14 +14,14 @@ import './styles.css';
 
 const HomePage = () => {
   const images = [
-    { src: home1, alt: 'Classic Burger' },
-    { src: home2, alt: 'Cheese Burger' },
-    { src: home3, alt: 'Bacon Burger' },
-    { src: home4, alt: 'Veggie Burger' },
-    { src: home5, alt: 'Spicy Burger' },
-    { src: home6, alt: 'Mushroom Burger' },
-    { src: home7, alt: 'BBQ Burger' },
-    { src: home8, alt: 'Peri Peri Original' },
+    { src: home1},
+    { src: home2},
+    { src: home3},
+    { src: home4},
+    { src: home5},
+    { src: home6},
+    { src: home7},
+    { src: home8},
   ];
 
   return (

@@ -54,6 +54,7 @@ const HomePage = () => {
       <h1>Our Commitment</h1>
       <hr className="divider-line" />
       <p>For five generations,<em> Home Of Cupcakes</em> has played a crucial role in the community, recognising the importance of protecting the environment and bringing quality products to people all over the world.</p>
+      <hr className="divider-line" />
     </div>
   );
 };

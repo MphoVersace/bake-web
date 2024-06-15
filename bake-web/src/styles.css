@@ -255,3 +255,36 @@ h1 {
   line-height: 1.5;
   color: #ccc;
 }
+
+/* Page specific styles */
+.about-page {
+  padding: 20px;
+  background-color: #f8f9fa;
+  color: #333;
+  font-family: Arial, sans-serif;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-header h1 {
+  font-size: 3em;
+  color: black;
+}
+
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cupcake-history-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}

@@ -119,6 +119,49 @@ const HomePage = () => {
           </div>
         ))}
       </Carousel>
+
+      <footer className="footer">
+        <div className="footer-content">
+          <p><strong>PAUL Melrose Arch</strong><br />
+          Melrose Arch Shopping Centre, Melrose North<br />
+          (087) 351 6091<br />
+          Sunday to Thursday: 7am – 9pm<br />
+          Friday & Saturday: 7am – 10pm</p>
+
+          <p><strong>THE HOME OF CUPCAKES Bryanston</strong><br />
+          Winifred Mandela Precinct, Bryanston<br />
+          (087) 351 6092<br />
+          Monday to Sunday: 7am – 6pm</p>
+
+          <p><strong>PAUL Morningside</strong><br />
+          Morningside Shopping Centre, Morningside<br />
+          (087) 351 6093<br />
+          Sunday to Monday: 7am – 6pm<br />
+          Tuesday & Wednesday: 7am – 9pm<br />
+          Thursday to Saturday: 7am – 10pm</p>
+
+          <p><strong>PAUL Polofields</strong><br />
+          Polofields Crossing, Waterfall<br />
+          (087) 551 0044<br />
+          Sunday to Monday: 7am – 6pm<br />
+          Tuesday & Wednesday: 7am – 9pm<br />
+          Thursday to Saturday: 7am – 10pm</p>
+
+          <p><strong>PAUL Neighbourhood</strong><br />
+          The Neighbourhood Square, Linksfield<br />
+          (087) 351 6097<br />
+          Monday: 7am – 6pm<br />
+          Tuesday & Wednesday: 7am – 9pm<br />
+          Thursday to Saturday: 7am – 10pm<br />
+          Sunday: 7am – 9pm</p>
+
+          <p><strong>PAUL V&A Waterfront</strong><br />
+          Shop No 128, Lower Level, Victoria Wharf Shopping Centre<br />
+          (087) 470 0316<br />
+          Sunday to Friday: 7.30am – 10pm<br />
+          Saturday: 7.30am – 11pm</p>
+        </div>
+      </footer>
     </div>
   );
 };

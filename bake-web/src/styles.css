@@ -1,6 +1,6 @@
 /* styles.css */
 body {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: italic;
   font-size: large;
   font-weight: 200;
@@ -233,4 +233,28 @@ h1 {
   color: #666; /* Adjust color */
   margin-top: 10px; /* Adjust top margin */
   margin-bottom: 20px; /* Adjust bottom margin */
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 2rem; /* Adjust the top margin */
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.footer-content p {
+  flex: 1 1 300px; /* Adjust the flex properties as needed */
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #ccc;
 }

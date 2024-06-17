@@ -272,7 +272,7 @@ body {
   background-color: #f8f9fa;
   color: #333;
   font-family: Arial, sans-serif;
-  max-width: 500px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -282,13 +282,13 @@ body {
 }
 
 .about-header h1 {
-  font-size: 3em;
+  font-size: 2.5em;
   color: black;
 }
 
 .about-section {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
   margin-bottom: 20px;
 }
@@ -297,4 +297,13 @@ body {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.about-paragraph {
+  font-size: 1.2em;
+  line-height: 1.6;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
 }

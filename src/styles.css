@@ -255,6 +255,9 @@ h1 {
   height: auto;
   border-radius: 8px;
   margin-bottom: 20px;
+  max-width: 500px;
+  height: auto;
+  border-radius: 8px;
 }
 
 .about-paragraph {
@@ -309,8 +312,10 @@ h1 {
   gap: 20px;
 }
 .Family-image {
+  height: auto;
   max-width: 500px;
   height: auto;
+  border-radius: 8px;
 }
 .about-family-title {
   font-size: 1.2em;

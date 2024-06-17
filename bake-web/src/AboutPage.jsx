@@ -1,6 +1,7 @@
 import React from 'react';
-import cupcakeHistoryImage from './assets/story1.jpeg'; 
-import './styles.css'; 
+import cupcakeHistoryImage from './assets/story1.jpeg';
+import libertyStatueImage from './assets/liberty-statue.jpeg'; 
+
 
 const AboutPage = () => {
   return (
@@ -16,10 +17,15 @@ const AboutPage = () => {
           <br /><br />
           Who could have imagined, all those years ago, that we would become one of the major players in the coffee market in South Africa now? Or that 18% of the products that we sell today are vegan? Or that we were among the first to sign up to the National Nutritional Health Plan, and to stop using plastic bags? Everyone knows THE HOME OF CUPCAKES. But how well do you really know us?
         </p>
-  
+        <div className="about-history"> 
+          <img src={libertyStatueImage} alt="Liberty Statue" className="liberty-statue-image" />
+          <h1 className="about-history-title"> 1924...</h1>
+          <p className="about-history-text">
+          In the very same year that the Liberty Statue  <br /> opened to the public in New Jersey, Amelia Simmons <br /> wrote the first lines of this family saga when he opened a bakery <br /> in Jersey City NJ, close to Plainfield.
+          </p>
+        </div>
       </div>
     </div>
-    
   );
 };
 

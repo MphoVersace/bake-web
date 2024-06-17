@@ -1,7 +1,7 @@
 import React from 'react';
 import cupcakeHistoryImage from './assets/story1.jpeg';
 import libertyStatueImage from './assets/liberty-statue.jpeg'; 
-
+import familyImage from './assets/family-image.jpeg';
 
 const AboutPage = () => {
   return (
@@ -19,9 +19,16 @@ const AboutPage = () => {
         </p>
         <div className="about-history"> 
           <img src={libertyStatueImage} alt="Liberty Statue" className="liberty-statue-image" />
-          <h1 className="about-history-title"> 1924...</h1>
+          <h1 className="about-history-title"> 1889...</h1>
           <p className="about-history-text">
           In the very same year that the Liberty Statue  <br /> opened to the public in New Jersey, Amelia Simmons <br /> wrote the first lines of this family saga when he opened a bakery <br /> in Jersey City NJ, close to Plainfield.
+          </p>
+        </div>
+        <div className="about-family"> 
+        <img src={familyImage} alt="FamilyImage" className="Family-image" />
+          <h1 className="about-family-title"> 1908...</h1>
+          <p className="about-family-text">
+          His son Edmond-Charlemagne, born in 1889, takes over the family business, together with his wife Victorine..
           </p>
         </div>
       </div>

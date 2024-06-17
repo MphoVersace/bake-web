@@ -2,6 +2,7 @@ import React from 'react';
 import cupcakeHistoryImage from './assets/story1.jpeg';
 import libertyStatueImage from './assets/liberty-statue.jpeg'; 
 import familyImage from './assets/family-image.jpeg';
+import manwomanImage from './assets/man-woman.jpeg';
 
 const AboutPage = () => {
   return (
@@ -28,6 +29,14 @@ const AboutPage = () => {
         <img src={familyImage} alt="FamilyImage" className="Family-image" />
           <h1 className="about-family-title"> 1908...</h1>
           <p className="about-family-text">
+          His son Edmond-Charlemagne, born in 1889, takes over the family business, together with his wife Victorine..
+          </p>
+        </div>
+        </div>
+        <div className="about-man"> 
+        <img src={manwomanImageImage} alt="manwomanImage" className="manwoman-image" />
+          <h1 className="about-manwoman-title"> 1908...</h1>
+          <p className="about-text">
           His son Edmond-Charlemagne, born in 1889, takes over the family business, together with his wife Victorine..
           </p>
         </div>

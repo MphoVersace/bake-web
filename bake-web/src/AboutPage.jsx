@@ -25,7 +25,7 @@ const AboutPage = () => {
           </p>
         </div>
         <div className="about-family"> 
-          <img src={familyImage} alt="Family" className="family-image" />
+          <img src={familyImage} alt="Family" className="Family-image" />
           <h1 className="about-family-title">1908...</h1>
           <p className="about-family-text">
             Her son Edmond-Charlemagne, born in 1889, took over the family business, together with his wife Victorine.

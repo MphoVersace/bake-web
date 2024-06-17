@@ -1,6 +1,6 @@
 import React from 'react';
-import cupcakeHistoryImage from './assets/story1.jpeg'; // Replace with the actual image path
-import './styles.css'; // Import your styles
+import cupcakeHistoryImage from './assets/story1.jpeg'; 
+import './styles.css'; 
 
 const AboutPage = () => {
   return (
@@ -16,8 +16,10 @@ const AboutPage = () => {
           <br /><br />
           Who could have imagined, all those years ago, that we would become one of the major players in the coffee market in South Africa now? Or that 18% of the products that we sell today are vegan? Or that we were among the first to sign up to the National Nutritional Health Plan, and to stop using plastic bags? Everyone knows THE HOME OF CUPCAKES. But how well do you really know us?
         </p>
+  
       </div>
     </div>
+    
   );
 };
 

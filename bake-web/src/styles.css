@@ -8,21 +8,16 @@ body {
   padding: 0;
   background-color: #f8f9fa;
 }
-
 h1 {
   text-align: center;
   color: #333;
 }
-
-
-
 .burger-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 2rem;
 }
-
 .burger-item {
   background: white;
   border-radius: 8px;
@@ -33,7 +28,6 @@ h1 {
   width: 200px;
   cursor: pointer;
 }
-
 .burger-item img {
   max-width: 100%;
   height: auto;
@@ -58,14 +52,6 @@ h1 {
   color: #666;
 }
 
-.about-page {
-  padding: 20px;
-  background-color: #f8f9fa;
-  color: #333;
-  font-family: 'Arial, sans-serif';
-  max-width: 1200px;
-  margin: 0 auto;
-}
 
 .about-header {
   text-align: center;
@@ -83,29 +69,6 @@ h1 {
   gap: 30px;
 }
 
-.about-section {
-  background: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.about-section h2 {
-  font-size: 2em;
-  color: black;
-  margin-bottom: 10px;
-}
-
-.about-section p {
-  font-size: 1.2em;
-  line-height: 1.6;
-}
-
-.about-section a {
-  color: black;
-  text-decoration: none;
-}
-
 .about-section a:hover {
   text-decoration: underline;
 }
@@ -117,7 +80,7 @@ h1 {
 }
 
 .carousel-title {
-  color: #d63384;
+  color: #12010a;
   font-size: 2.5rem;
   margin-bottom: 2rem;
 }
@@ -141,7 +104,7 @@ h1 {
   object-fit: cover;
 }
 
-/* Navbar Styles */
+
 .navbar {
   background-color: #333;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -232,7 +195,7 @@ h1 {
   margin-bottom: 20px; 
 }
 
-/* Footer Styles */
+
 .footer {
   background-color: #333;
   color: white;
@@ -256,26 +219,7 @@ h1 {
   color: #ccc;
 }
 
-body {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-style: initial;
-  font-size: large;
-  font-weight: 200;
-  margin: 0;
-  padding: 0;
-  background-color: #f8f9fa;
-}
-
-
-.about-page {
-  padding: 20px;
-  background-color: #f8f9fa;
-  color: #333;
-  font-family: Arial, sans-serif;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-body {
+.body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-style: initial;
   font-size: large;
@@ -299,19 +243,19 @@ body {
 }
 
 .about-header h1 {
-  font-size: 2.5em;
+  font-size: 1.5em;
   color: black;
 }
 
 .about-section {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items:center;
   margin-bottom: 20px;
 }
 
 .cupcake-history-image {
-  max-width: 100%;
+  max-width: 60%;
   height: auto;
   border-radius: 8px;
   margin-bottom: 20px;
@@ -319,15 +263,12 @@ body {
 
 .about-paragraph {
   font-size: 1.2em;
-  line-height: 1.6;
+  line-height: 2.6;
   text-align: center;
   max-width: 800px;
-  margin: 0 auto;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-style: initial;
   font-size: large;
-  font-weight: 200;
-  margin: 0;
-  padding: 0;
+  font-weight: 100;
   background-color: #f8f9fa;
 }

@@ -1,27 +1,27 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import home1 from './assets/home1.jpeg';
-import home2 from './assets/home2.jpeg';
-import home3 from './assets/home3.jpeg';
-import home4 from './assets/home4.jpeg';
-import home5 from './assets/home5.jpeg';
-import home6 from './assets/home6.jpeg';
-import home7 from './assets/home7.jpeg';
-import home8 from './assets/home8.jpeg';
-import fav1 from './assets/fav1.jpeg';
-import fav2 from './assets/fav2.jpeg';
-import fav3 from './assets/fav3.jpeg';
-import fav4 from './assets/fav4.jpeg';
-import fav5 from './assets/fav5.jpeg';
-import fav6 from './assets/fav6.jpeg';
-import fav7 from './assets/fav7.jpeg';
-import fav8 from './assets/fav8.jpeg';
-import img1 from './assets/qaulity-at-the-heart.png';
-import img2 from './assets/passion-for-flour.png';
-import img3 from './assets/american-tradition.webp';
-import img4 from './assets/family-owned-company.png';
-import './styles.css';
+import home1 from '../assets/home1.jpeg';
+import home2 from '../assets/home2.jpeg';
+import home3 from '../assets/home3.jpeg';
+import home4 from '../assets/home4.jpeg';
+import home5 from '../assets/home5.jpeg';
+import home6 from '../assets/home6.jpeg';
+import home7 from '../assets/home7.jpeg';
+import home8 from '../assets/home8.jpeg';
+import fav1 from '../assets/fav1.jpeg';
+import fav2 from '../assets/fav2.jpeg';
+import fav3 from '../assets/fav3.jpeg';
+import fav4 from '../assets/fav4.jpeg';
+import fav5 from '../assets/fav5.jpeg';
+import fav6 from '../assets/fav6.jpeg';
+import fav7 from '../assets/fav7.jpeg';
+import fav8 from '../assets/fav8.jpeg';
+import img1 from '../assets/qaulity-at-the-heart.png';
+import img2 from '../assets/passion-for-flour.png';
+import img3 from '../assets/american-tradition.webp';
+import img4 from '../assets/family-owned-company.png';
+import '../styles.css';
 
 const HomePage = () => {
   const images = [
@@ -83,7 +83,7 @@ const HomePage = () => {
       <hr className="divider-line" />
 
       <h1>Our Commitment</h1>
-      
+
       <hr className="divider-line" />
 
       <p>For five generations, <em>Home Of Cupcakes</em> has played a crucial role in the community, recognising the importance of protecting the environment and bringing quality products to people all over the world.</p>

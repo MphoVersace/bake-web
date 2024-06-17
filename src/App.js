@@ -1,10 +1,10 @@
-// App.js
+
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import HomePage from './HomePage';
-import AboutPage from './AboutPage';
-import MenuPage from './MenuPage';
-import Navigation from './Navigation';
+import HomePage from './Components/HomePage';
+import AboutPage from './Components/AboutPage';
+import MenuPage from './Components/MenuPage';
+import Navigation from './Components/Navigation';
 import './styles.css';
 
 const App = () => {

@@ -1,15 +1,15 @@
 import React from 'react';
-import cake1 from './assets/cake1.jpeg';
-import cake2 from './assets/cake2.jpeg';
-import cake3 from './assets/cake3.jpeg';
-import cake4 from './assets/cake4.jpeg';
-import cake5 from './assets/cake5.jpeg';
-import cake6 from './assets/cake6.jpeg';
-import cake7 from './assets/cake7.jpeg';
-import cake8 from './assets/cake8.jpeg';
-import cake9 from './assets/cake9.jpeg';
-import cake10 from './assets/cake10.jpeg';
-import './styles.css';
+import cake1 from '../assets/cake1.jpeg';
+import cake2 from '../assets/cake2.jpeg';
+import cake3 from '../assets/cake3.jpeg';
+import cake4 from '../assets/cake4.jpeg';
+import cake5 from '../assets/cake5.jpeg';
+import cake6 from '../assets/cake6.jpeg';
+import cake7 from '../assets/cake7.jpeg';
+import cake8 from '../assets/cake8.jpeg';
+import cake9 from '../assets/cake9.jpeg';
+import cake10 from '../assets/cake10.jpeg';
+import '../styles.css';
 
 const MenuPage = () => {
   const burgers = [

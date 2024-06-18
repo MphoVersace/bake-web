@@ -11,13 +11,13 @@ h1 {
   text-align: center;
   color: #333;
 }
-.burger-list {
+.cake-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 2rem;
 }
-.burger-item {
+.cake-item {
   background: white;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -27,13 +27,13 @@ h1 {
   width: 200px;
   cursor: pointer;
 }
-.burger-item img {
+.cake-item img {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
 }
 
-.burger-details {
+.cake-details {
   background: #f8f9fa;
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -42,12 +42,12 @@ h1 {
   text-align: left;
 }
 
-.burger-details h2 {
+.cake-details h2 {
   color: #333;
   font-size: 1.5rem;
 }
 
-.burger-details p {
+.cake-details p {
   color: #666;
 }
 
@@ -103,7 +103,6 @@ h1 {
   object-fit: cover;
 }
 
-/* This is the navigation  */
 
 .navbar {
   background-color: #333;

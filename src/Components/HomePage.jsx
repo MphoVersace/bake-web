@@ -55,7 +55,7 @@ const HomePage = () => {
 
   return (
     <div className="home-page">
-      <h1 className="carousel-title">Welcome To The Home Of Cupcakes!</h1>
+      <h1 className="carousel-title">Welcome To  <em>The Home Of Cupcakes!</em></h1>
       <Carousel
         autoPlay
         infiniteLoop
@@ -69,9 +69,9 @@ const HomePage = () => {
             <img src={image.src} alt={`Slide ${index + 1}`} className="carousel-image" />
             <div className="carousel-caption">
               <p className="carousel-caption-text">
-                <strong>The Home Of Cupcakes</strong>
+                <strong><em>The Home Of Cupcakes</em></strong>
                 <br />
-                HOME OF CUPCAKES is a family-owned artisanal patisserie and coffee shop with a proud American heritage dating back to 1889. Known for our personal touch, impeccable service levels and warm, sophisticated atmosphere,  <em>HOME OF CUPCAKES</em> offers a vast American style menu to suit any occasion, from diet cupcakes right through to sweet and every coffee and teatime in between.
+               <em> HOME OF CUPCAKES</em> is a family-owned artisanal patisserie and coffee shop with a proud American heritage dating back to 1889. Known for our personal touch, impeccable service levels and warm, sophisticated atmosphere,  <em>HOME OF CUPCAKES</em> offers a vast American style menu to suit any occasion, from diet cupcakes right through to sweet and every coffee and teatime in between.
                 <br />
                 We are all about people, community and great food, delivered to you with unapologetic American flair. Our gourmet meals and freshly baked cupcakes, pastries and confectionary, are made daily from scratch with carefully selected quality ingredients. Our customers pop in for a bite, business meeting or catch up with friends with many loyalists visiting us on a regularly basis.
               </p>

@@ -3,6 +3,8 @@ import cupcakeHistoryImage from '../assets/story1.jpeg';
 import libertyStatueImage from '../assets/liberty-statue.jpeg';
 import familyImage from '../assets/family-image.jpeg';
 import manwomanImage from '../assets/manwoman.jpeg';
+import bakeryImage from '../assets/bakery.jpeg';
+
 
 const AboutPage = () => {
   return (
@@ -37,6 +39,13 @@ const AboutPage = () => {
           <h1 className="about-manwoman-title">1935...</h1>
           <p className="about-manwomantext">
           Their daughter Suzanne marries Julien Holder. They open their own <br /> bakery in rue des Sarrazins in Lille.
+          </p>
+        </div>
+        <div className="bakery">
+          <img src={bakeryImage} alt="bakery" className="bakery-image" />
+          <h1 className="about-bakery-title">1953...</h1>
+          <p className="about-bakerytext">
+          Julien and Suzanne Holder move to take over a pâtisserie in Lille belonging to the THE HOME OF CUPCAKES family. The name THE HOME OF CUPCAKES <br /> is retained.Francis Holder, who started to work with his parents when <br /> he was very young, will go on to transform PAUL into a brand  that’s known around the world. This first bakery to bear the  "THE HOME OF CUPCAKES" name is still there today and holds the imprint  of successive generations.
           </p>
         </div>
       </div>

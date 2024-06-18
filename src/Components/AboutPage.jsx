@@ -45,7 +45,7 @@ const AboutPage = () => {
           <img src={bakeryImage} alt="bakery" className="bakery-image" />
           <h1 className="about-bakery-title">1953...</h1>
           <p className="about-bakerytext">
-          Julien and Suzanne Holder move to take over a pâtisserie in Lille belonging to the THE HOME OF CUPCAKES family. The name THE HOME OF CUPCAKES <br /> is retained.Francis Holder, who started to work with his parents when <br /> he was very young, will go on to transform PAUL into a brand  that’s known around the world. This first bakery to bear the  "THE HOME OF CUPCAKES" name is still there today and holds the imprint  of successive generations.
+          Julien and Suzanne Holder move to take over a pâtisserie in Lille belonging to the THE HOME OF CUPCAKES family. The name THE HOME OF CUPCAKES <br /> is retained.Francis Holder, who started to work with his parents when <br /> he was very young, will go on to transform THE HOME OF CUPCAKES into a brand  that’s known around the world. This first bakery to bear the  "THE HOME OF CUPCAKES" name is still there today and holds the imprint  of successive generations.
           </p>
         </div>
       </div>

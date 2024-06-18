@@ -82,7 +82,7 @@ const HomePage = () => {
 
       <hr className="divider-line" />
 
-      <h1>Our Commitment</h1>
+      <h1> <em>Our Commitment</em></h1>
 
       <hr className="divider-line" />
 
@@ -104,7 +104,7 @@ const HomePage = () => {
 
       <hr className="divider-line" />
 
-      <h1>Your Favs!</h1>
+      <h1> Your Favs!</h1>
       <hr className="divider-line" />
       <Carousel
         autoPlay

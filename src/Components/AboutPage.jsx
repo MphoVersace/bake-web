@@ -16,9 +16,9 @@ const AboutPage = () => {
       <div className="about-section">
         <img src={cupcakeHistoryImage} alt="Cupcake History" className="cupcake-history-image" />
         <p className="about-paragraph">
-          For many, THE HOME OF CUPCAKES is the embodiment of tradition. And yet, although we are faithful to our historic roots, at THE HOME OF CUPCAKES we have never stopped inventing, innovating, and opening new chapters of our story. To browse the history of THE HOME OF CUPCAKES is to leaf through the album of a family that’s proud to offer its customers tasty breads, delicious pâtisseries, pure butter pastries, flavorful cupcakes, and so many other gourmet creations added over time by five successive generations.
+          For many, <em>THE HOME OF CUPCAKES</em> is the embodiment of tradition. And yet, although we are faithful to our historic roots, at <em>THE HOME OF CUPCAKES</em> we have never stopped inventing, innovating, and opening new chapters of our story. To browse the history of <em>THE HOME OF CUPCAKES</em> is to leaf through the album of a family that’s proud to offer its customers tasty breads, delicious pâtisseries, pure butter pastries, flavorful cupcakes, and so many other gourmet creations added over time by five successive generations.
           <br /><br />
-          Who could have imagined, all those years ago, that we would become one of the major players in the coffee market in South Africa now? Or that 18% of the products that we sell today are vegan? Or that we were among the first to sign up to the National Nutritional Health Plan, and to stop using plastic bags? Everyone knows THE HOME OF CUPCAKES. But how well do you really know us?
+          Who could have imagined, all those years ago, that we would become one of the major players in the coffee market in South Africa now? Or that 18% of the products that we sell today are vegan? Or that we were among the first to sign up to the National Nutritional Health Plan, and to stop using plastic bags? Everyone knows <em>THE HOME OF CUPCAKES.</em> But how well do you really know us?
         </p>
         <div className="about-history">
           <img src={libertyStatueImage} alt="Statue of Liberty" className="liberty-statue-image" />
@@ -45,7 +45,7 @@ const AboutPage = () => {
           <img src={bakeryImage} alt="bakery" className="bakery-image" />
           <h1 className="about-bakery-title">1953...</h1>
           <p className="about-bakerytext">
-          Julien and Suzanne Holder move to take over a pâtisserie in Lille belonging to the THE HOME OF CUPCAKES family. The name THE HOME OF CUPCAKES <br /> is retained.Francis Holder, who started to work with his parents when <br /> he was very young, will go on to transform THE HOME OF CUPCAKES into a brand  that’s known around the world. This first bakery to bear the  "THE HOME OF CUPCAKES" name is still there today and holds the imprint  of successive generations.
+          Julien and Suzanne Holder move to take over a pâtisserie in Lille belonging to the <em>THE HOME OF CUPCAKES</em> family. The name <em>THE HOME OF CUPCAKES</em> <br /> is retained.Francis Holder, who started to work with his parents when <br /> he was very young, will go on to transform <em>THE HOME OF CUPCAKES</em> into a brand  that’s known around the world. This first bakery to bear the  " <em>THE HOME OF CUPCAKES</em>" name is still there today and holds the imprint  of successive generations.
           </p>
         </div>
       </div>

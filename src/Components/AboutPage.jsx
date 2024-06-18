@@ -2,6 +2,7 @@ import React from 'react';
 import cupcakeHistoryImage from '../assets/story1.jpeg';
 import libertyStatueImage from '../assets/liberty-statue.jpeg';
 import familyImage from '../assets/family-image.jpeg';
+import manwomanImage from '../assets/manwoman.jpeg';
 
 const AboutPage = () => {
   return (
@@ -29,6 +30,13 @@ const AboutPage = () => {
           <h1 className="about-family-title">1908...</h1>
           <p className="about-family-text">
             Her son Edmond-Charlemagne, born in 1889, took over the family business, together with his wife Victorine.
+          </p>
+        </div>
+        <div className="aboutmanwoman">
+          <img src={manwomanImage} alt="manwoman" className="manwoman-image" />
+          <h1 className="about-manwoman-title">1935...</h1>
+          <p className="about-manwomantext">
+          Their daughter Suzanne marries Julien Holder. They open their own <br /> bakery in rue des Sarrazins in Lille.
           </p>
         </div>
       </div>
